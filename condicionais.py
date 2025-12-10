@@ -14,44 +14,39 @@
 # se não, pede o café simpes
 
 
-
 # Sintaxe básica no Python!
 
 # if - 'Se'
 # else - 'Se não'
 # elif - se + se não
 
-# if condição: 
-    # Código a ser executado se a condição for verdadeira
+# if condição:
+# Código a ser executado se a condição for verdadeira
 # elif outra_condição:
-    # Código executado se aprimeira condição for falsa, mas essa verdadeira
+# Código executado se aprimeira condição for falsa, mas essa verdadeira
 # else:
-    # Código executado se nenhuma das condições anteriores for verdadeira
-
+# Código executado se nenhuma das condições anteriores for verdadeira
 
 
 # EXEMPLOS
 
-#Verificando a idade para entrada em um evento (18 ANOS)
+# Verificando a idade para entrada em um evento (18 ANOS)
 
 # idade = int(input('Digite sua idade ')) #Usuário digita sua idade
 
 # if idade >=18:
-    # print('Você pode entrar no evento')
+# print('Você pode entrar no evento')
 # else:
-    # print('Desculpe, você ainda não tem idade suficiente para entrar.')
-
-
-
+# print('Desculpe, você ainda não tem idade suficiente para entrar.')
 
 
 # Verificando a nota de um aluno
 
-nota = float(input('Digite sua nota ')) # Usuário insere nota
+nota = float(input('Digite sua nota '))  # Usuário insere nota
 
-if nota >=7:
+if nota >= 7:
     print('Parabéns! Você passou de ano')
-elif nota >=5:
+elif nota >= 5:
     print('Você está de recuperção. Estude e tente novamente. ')
 else:
     print('Infelizmente, você foi reprovado. Tente novamente no proximo ano. ')
