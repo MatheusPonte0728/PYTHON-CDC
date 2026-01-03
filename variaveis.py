@@ -16,7 +16,5 @@ nome = input('Digite seu nome: ')  # Entrada de texto
 # Entrada de texto convertida para int
 idade = int(input('Digite dua idade: '))
 altura = float(input('DIgite sua altura: '))  # Entrada convertida para float
-cidade = input('Digite sua cidade')
 
-
-print(f'Olá, {nome}! Você tem {idade} anos, mora em {cidade} e mede {altura}m.')
+print(f'Olá, {nome}! Você tem {idade} anos, mede {altura}m.')
