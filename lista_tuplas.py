@@ -38,27 +38,27 @@
 # insert(): adiciona um item em uma posição especíica
 
 
-# numeros = [1, 2, 3]
+# numeros = [1, 2, 3, 4,]
 # print(numeros)
 
 # numeros.append(4)
 
 # print(numeros)  # [1, 2, 3, 4]
 
-# .insert(1, 10)  # (posição, valor)
-# (numeros)  # [1, 10, 2, 3, 4] (inseriu o 10 na posição 1)
+# numeros.insert(1, 10)  # (posição, valor)
+# print(numeros)  # [1, 10, 2, 3, 4] (inseriu o 10 na posição 1)
 
 # Removendo elementos da lista
 
-# reomce(): remove um item pelo valro
+# remove(): remove um item pelo valor
 # pop(): remove um item pelo indice (ou o ultimo item
-# se nenhum indeice for passado)
+# se nenhum indice for passado)
 
 # frutas = ["maçã", "banana", "laranja", "uva"]
-# nfrutas.remove("banana")
+# frutas.remove("banana")
 # print(frutas)
 
-# frutas.pop(0)
+# frutas.pop(3)
 # print(frutas)
 
 # frutas.pop()
@@ -75,7 +75,7 @@
 # (cores[0])  # "vermelho"
 # print(cores[-1])  # "verde"
 
-# Tentando modifica uma tuplas (Erro!)
+# Tentando modificar uma tuplas (Erro!)
 # cores[1] = "amarelo" # X Isso gera um erro,
 # pois tuplas são imutaveis!
 
